@@ -85,7 +85,10 @@ body {
 .user-image {
   float: left;
   margin: 0 20px 32px 0;
-  text-align: center;
+}
+
+.user-image img {
+  border-radius: 15px;
 }
 
 .intro h3,
