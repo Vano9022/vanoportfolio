@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   min-width: 960px;
@@ -79,7 +83,8 @@ body {
 }
 
 .user-image {
-  margin: 0 0 32px;
+  float: left;
+  margin: 0 20px 32px 0;
   text-align: center;
 }
 
@@ -93,6 +98,10 @@ body {
 
 .intro p {
   margin: 0 0 32px;
+}
+
+.skills {
+  clear: both;
 }
 
 .skills-list {
@@ -112,6 +121,10 @@ body {
 
 .skill-css {
   background-image: url("img/icon-css.svg");
+}
+
+.skill-js {
+  background-image: url("img/icon-js2.svg");
 }
 
 .level {
@@ -186,4 +199,26 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone.svg");
+}
+
+.up-button {
+  position: fixed;
+  z-index: 1;
+  padding: 0;
+  bottom: 75px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  border: 5px solid;
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
+}
+
+.shown {
+  display: inline-block;
 }
